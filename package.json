@@ -1,21 +1,14 @@
 {
-  "name": "nextjs-pro-boilerplate",
+  "name": "backoffice-boilerplate",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint src --max-warnings=0",
     "test": "jest",
     "test:watch": "npm run test -- --watch",
-    "generate": "npx plop --godoy --plopfile generators/plopfile.js"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "npm run lint --fix",
-      "npm run test --findRelatedTests --bail"
-    ]
+    "generate": "npx plop --backoffice --plopfile generators/plopfile.js"
   },
   "dependencies": {
     "next": "10.0.7",
