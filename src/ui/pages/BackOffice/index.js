@@ -6,15 +6,15 @@ const BackOffice = () => {
   return (
     <S.Wrapper>
       <Head>
-        <title>Backoffice - Test</title>
+        <title>Backoffice - Redirect</title>
         <meta
           name="description"
           content="A backoffice Page"
         />
       </Head>
       <BackOfficeComponent
-        title="Next.js Pro - Godoy"
-        description="A ready to production Next.js boilerplate"
+        title="Bem vindo ao redirect Backoffice - Fidelização"
+        description="Este é um teste de redirect do novo projeto de Fidelização!"
       />
     </S.Wrapper>
   )

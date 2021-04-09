@@ -1,10 +1,11 @@
-import LogoSVG from '../../../assets/svg/LogoSVG'
+import NextJS from '../../../assets/svg/nextjs.svg'
+
 import * as S from './styles'
 
 const BackOfficeComponent = ({ title, description }) => (
   <S.Wrapper>
     <S.Logo>
-      <LogoSVG />
+      <NextJS />
     </S.Logo>
 
     <S.Title>{title}</S.Title>

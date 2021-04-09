@@ -1,32 +1,29 @@
 import styled from 'styled-components'
 
 export const Wrapper = styled.main`
-  background-color: #06092b;
-  color: #fff;
-  width: 100%;
-  height: 100%;
-  padding: 3rem;
-  text-align: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
   justify-content: center;
+  width: 100vw;
 `
 
 export const Logo = styled.div`
-  margin-bottom: 2rem;
+  color: white;
+
   svg {
-    width: 200px;
     fill: white;
   }
-  color: white;
 `
 
 export const Title = styled.h1`
-  font-size: 2.5rem;
+  color: ${props => props.theme.colors.primary};
+  font-size: 54px;
+  margin: 40px 0 20px;
 `
 
 export const Description = styled.h2`
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
 `

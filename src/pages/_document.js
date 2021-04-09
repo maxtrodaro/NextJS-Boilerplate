@@ -1,6 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 
 import { ServerStyleSheet } from 'styled-components'
+import faviconCRM from '../assets/png/faviconCRM.png'
 
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
@@ -32,7 +33,10 @@ class MyDocument extends Document {
   render() {
     return (
       <Html lang="pt-BR">
-        <Head />
+        <Head>
+          <meta charSet="utf-8" />
+          <link rel="icon" href={faviconCRM} />
+        </Head>
         <body>
           <Main />
           <NextScript />

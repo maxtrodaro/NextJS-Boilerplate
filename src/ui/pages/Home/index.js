@@ -13,8 +13,8 @@ const Home = () => {
         />
       </Head>
       <HomeComponent
-        title="Next.js - Boilerplate"
-        description="A ready to production Next.js boilerplate"
+        title="Bem vindo ao Backoffice - Fidelização "
+        description="Este é um boilerplate para nosso novo projeto de Fidelização!"
       />
     </S.Wrapper>
   )

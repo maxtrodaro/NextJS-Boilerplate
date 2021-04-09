@@ -1,7 +1,6 @@
-const LogoSVG = () => (
-  <svg
-    width="82"
-    height="40"
+<svg
+    width="400"
+    height="150"
     viewBox="0 0 148 90"
     xmlns="http://www.w3.org/2000/svg"
   >
@@ -10,6 +9,3 @@ const LogoSVG = () => (
       fillRule="nonzero"
     ></path>
   </svg>
-)
-
-export default LogoSVG
