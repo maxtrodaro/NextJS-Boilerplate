@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react'
 
-import Main from '.'
+import HomeComponent from '.'
 
-describe('<Main />', () => {
+describe('HomeComponent test', () => {
   it('should render the title', () => {
-    const { container } = render(<Main title="header text" />)
+    const { container } = render(<HomeComponent title="header text" />)
 
     expect(
       screen.getByRole('heading', { name: /header text/i })
@@ -14,7 +14,7 @@ describe('<Main />', () => {
   })
 
   it('should render the description', () => {
-    const { container } = render(<Main description="description" />)
+    const { container } = render(<HomeComponent description="description" />)
 
     expect(
       screen.getByRole('heading', { name: /description/i })

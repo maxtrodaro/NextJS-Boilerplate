@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Main /> should render the description 1`] = `
+exports[`BackOfficeComponent test should render the description 1`] = `
 .c0 {
   background-color: #06092b;
   color: #fff;
@@ -73,7 +73,7 @@ exports[`<Main /> should render the description 1`] = `
 </main>
 `;
 
-exports[`<Main /> should render the title 1`] = `
+exports[`BackOfficeComponent test should render the title 1`] = `
 .c0 {
   background-color: #06092b;
   color: #fff;

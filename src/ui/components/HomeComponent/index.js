@@ -1,7 +1,7 @@
 import LogoSVG from '../../../assets/svg/LogoSVG'
 import * as S from './styles'
 
-const Main = ({ title, description }) => (
+const HomeComponent = ({ title, description }) => (
   <S.Wrapper>
     <S.Logo>
       <LogoSVG />
@@ -12,4 +12,4 @@ const Main = ({ title, description }) => (
   </S.Wrapper>
 )
 
-export default Main
+export default HomeComponent

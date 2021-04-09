@@ -2,7 +2,7 @@ import { render, screen } from '@testing-library/react'
 
 import Home from '.'
 
-jest.mock('ui/components/HomeComponent', () => {
+jest.mock('ui/components/BackOfficeComponent', () => {
   return {
     __esModule: true,
     default: function MainMock() {
