@@ -1,6 +1,4 @@
-import { DefaultTheme } from 'styled-components'
-
-const theme: DefaultTheme = {
+const theme = {
   colors: {
     featuredBackground: '#612F74',
     featuredBackgroundDarken: '#511F64',

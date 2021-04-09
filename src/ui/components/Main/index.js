@@ -1,10 +1,7 @@
-import LogoSVG from 'assets/svg/LogoSVG'
+import LogoSVG from '../../../assets/svg/LogoSVG'
 import * as S from './styles'
 
-const Main = ({
-  title = 'Next.js Pro - Boilerplate',
-  description = 'A ready to production Next.js boilerplate'
-}) => (
+const Main = ({ title, description }) => (
   <S.Wrapper>
     <S.Logo>
       <LogoSVG />

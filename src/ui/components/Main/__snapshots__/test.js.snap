@@ -64,9 +64,7 @@ exports[`<Main /> should render the description 1`] = `
   </div>
   <h1
     class="c2"
-  >
-    Next.js Pro - Boilerplate
-  </h1>
+  />
   <h2
     class="c3"
   >
@@ -144,8 +142,6 @@ exports[`<Main /> should render the title 1`] = `
   </h1>
   <h2
     class="c3"
-  >
-    A ready to production Next.js boilerplate
-  </h2>
+  />
 </main>
 `;
