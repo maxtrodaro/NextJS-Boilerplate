@@ -6,28 +6,28 @@ module.exports = (plop) => {
         type: 'input',
         name: 'name',
         message: 'What is your component name?'
-      }
+      },
+      {
+        type: 'input',
+        name: 'description',
+        message: 'What is your component description?'
+      },
     ],
     actions: [
       {
         type: 'add',
-        path: '../src/ui/components/{{pascalCase name}}/index.tsx',
-        templateFile: 'templates/Component.tsx.hbs'
+        path: '../src/ui/components/{{pascalCase name}}/index.js',
+        templateFile: 'components/Component.js.hbs'
       },
       {
         type: 'add',
-        path: '../src/ui/components/{{pascalCase name}}/styles.ts',
-        templateFile: 'templates/styles.ts.hbs'
+        path: '../src/ui/components/{{pascalCase name}}/styles.js',
+        templateFile: 'components/styles.js.hbs'
       },
       {
         type: 'add',
-        path: '../src/ui/components/{{pascalCase name}}/stories.tsx',
-        templateFile: 'templates/stories.tsx.hbs'
-      },
-      {
-        type: 'add',
-        path: '../src/ui/components/{{pascalCase name}}/test.tsx',
-        templateFile: 'templates/test.tsx.hbs'
+        path: '../src/ui/components/{{pascalCase name}}/test.js',
+        templateFile: 'components/test.js.hbs'
       }
     ]
   })
