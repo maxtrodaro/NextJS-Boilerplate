@@ -22,4 +22,14 @@ describe('BackOfficeComponent test', () => {
 
     expect(container.firstChild).toMatchSnapshot()
   })
+
+  it('should render the button', () => {
+    const { container } = render(<BackOfficeComponent buttonText="Ir para a home" />)
+
+    expect(
+      screen.getByRole('button', { name: /home/i })
+    ).toBeInTheDocument()
+
+    expect(container.firstChild).toMatchSnapshot()
+  })
 })

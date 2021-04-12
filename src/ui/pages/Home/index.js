@@ -13,8 +13,9 @@ const Home = () => {
         />
       </Head>
       <HomeComponent
-        title="Bem vindo ao Backoffice - Fidelização "
+        title="Bem vindo ao Backoffice - Fidelização"
         description="Este é um boilerplate para nosso novo projeto de Fidelização!"
+        buttonText="Ir para o backoffice"
       />
     </S.Wrapper>
   )

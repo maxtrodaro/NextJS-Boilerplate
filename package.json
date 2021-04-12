@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
-    "test:watch": "npm run test -- --watch",
+    "test:watch": "npm run test --backoffice --watch",
     "generate": "npx plop --backoffice --plopfile generators/plopfile.js"
   },
   "dependencies": {

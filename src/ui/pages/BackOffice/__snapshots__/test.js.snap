@@ -2,7 +2,7 @@
 
 exports[`<Home /> should render the <Main /> component 1`] = `
 <div
-  class=""
+  class="styles__Wrapper-sc-1w2st8e-0"
 >
   <div
     data-testid="main-component"

@@ -15,6 +15,7 @@ const BackOffice = () => {
       <BackOfficeComponent
         title="Bem vindo ao redirect Backoffice - Fidelização"
         description="Este é um teste de redirect do novo projeto de Fidelização!"
+        buttonText="Voltar para a home"
       />
     </S.Wrapper>
   )
